@@ -1,4 +1,7 @@
-# end-to-end-for-plate-recognition
+# end-to-end-for-plate-recognition 
+# training and demo for HyperLPR 
+#
+
 多标签分类,端到端的中文车牌识别基于mxnet .
 从[xlvector的ocr代码](https://github.com/szad670401/learning-dl/tree/master/mxnet/ocr)修改，减少了参数，由于我没有显卡。单线程 9 samples/s 速度 ，用CPU在MBP上跑了50w张样本。识别率到了81%。不过还没有完全收敛。
 
